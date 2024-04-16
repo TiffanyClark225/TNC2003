@@ -1,0 +1,11 @@
+mkdir EE576
+cd EE576
+mkdir web-server
+cd web-server
+
+npm init -y
+npm install express morgan winston
+
+
+docker build -t web-server .
+docker run -p 3000:3000 web-server
