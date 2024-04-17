@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const winston = require('winston');
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 // Logger configuration
 const logConfiguration = {

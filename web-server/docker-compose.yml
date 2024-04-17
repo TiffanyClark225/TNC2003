@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  server:
+    build: .
+    container_name: server
+    image: ctf-server
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+      
