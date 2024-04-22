@@ -5,7 +5,7 @@ const { rateLimit } = require("express-rate-limit");
 const helmet = require("helmet");
 
 const app = express();
-const port = 8000;
+const port = 80;
 
 // Define your severity levels.
 // With them, You can create log files,
